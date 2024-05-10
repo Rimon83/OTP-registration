@@ -1,0 +1,54 @@
+.verify_container{
+ background-color: #383737;
+ padding: 40px;
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+ justify-items: center;
+ align-items: center;
+ max-width: 40%;
+ margin: 40px auto;
+ border-radius: 5px;
+ color: #fff;
+
+ 
+}
+
+
+.verify_container form{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ 
+}
+
+.verify_container input{
+ padding: 10px;
+ border-radius: 5px;
+ background-color: #000;
+ outline: 0;
+ border: 0;
+  color: #fff
+
+
+}
+
+.verify_container input:focus{
+ border: 1px solid #fff;
+}
+
+.verify_container button{
+ margin-top: 10px;
+ background-color: #000;
+ width: 100%;
+ padding: 10px;
+ border-radius: 5px;
+ font-weight: bolder;
+ cursor: pointer;
+ color: #fff;
+}
+
+.verify_container  button:hover{
+ opacity: .8
+}
